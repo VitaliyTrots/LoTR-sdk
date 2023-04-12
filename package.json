@@ -1,0 +1,39 @@
+{
+  "name": "trots-vitalii-sdk",
+  "version": "1.0.0",
+  "description": "Lord Of The Rings SDK",
+  "main": "index.js",
+  "files": [
+    "index.d.ts",
+    "index.js",
+    "index.mjs",
+    "src/"
+  ],
+  "scripts": {
+    "lint": "eslint src",
+    "test:e2e": "export MODE=e2e && node node_modules/jest/bin/jest.js --config jest.config.js --maxWorkers=1 --forceExit",
+    "test:unit": "export MODE=unit && node node_modules/jest/bin/jest.js --config jest.config.js --maxWorkers=1 --forceExit",
+    "test:integration": "export MODE=integration && node node_modules/jest/bin/jest.js --config jest.config.js --maxWorkers=1 --forceExit"
+  },
+  "author": "Trots Vitaliy",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "jest": "^29.5.0",
+    "npm": "^8.19.4"
+  },
+  "exports": {
+    "import": "./index.mjs",
+    "require": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VitaliyTrots/LoTR_sdk"
+  },
+  "keywords": [
+    "sdk",
+    "lord-of-the-rings"
+  ]
+}
