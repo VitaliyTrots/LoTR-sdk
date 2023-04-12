@@ -38,7 +38,7 @@ After success registration you will have an **API key**, that will be used for n
 First, run the following script in your command line:
 
 ```bash
-npm install trots-vitaliy-sdk
+npm install trots-vitalii-sdk
 ```
 
 ## SDK Initialization
