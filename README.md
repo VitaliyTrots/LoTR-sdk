@@ -148,7 +148,7 @@ For making a usage of current SDK more slight and safe we are not returning or t
 
 ### Testing
 
-Testing is available for development purpose, you may discover test cases in our [GitHub Repository](https://github.com/VitaliyTrots/LoTR_sdk)
+Testing is available for development purpose, you may discover test cases in our [GitHub Repository](https://github.com/VitaliyTrots/LoTR-sdk)
 
 It's developed with a help of **Jest** testing framework on a unit, integration and acceptance levels.
 
